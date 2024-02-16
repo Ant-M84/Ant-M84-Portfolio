@@ -1,4 +1,4 @@
-function Content() {
+function About() {
     return (
         <section className="container">
             <div className ="row" style={{
@@ -15,4 +15,4 @@ function Content() {
     )
 };
 
-export default Content;
+export default About;

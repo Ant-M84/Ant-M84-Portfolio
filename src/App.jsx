@@ -1,6 +1,6 @@
 import Header from './components/Header/header';
 import Footer from './components/Footer/footer';
-import Content from './components/Content/content';
+import About from './components/About/about';
 import './App.css';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <>
       <Header />
       <div>
-       <Content />
+       <About />
       </div>
       <Footer />
     </>
