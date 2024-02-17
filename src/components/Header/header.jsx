@@ -1,9 +1,6 @@
 function Header () {
     return (
-        <header className="container-fluid header" style={{
-            color: "white",
-            marginBottom: "50px",
-            }}>
+        <header className="container-fluid header" style={{ color: "white", marginBottom: 50 }}>
             <div className ="row" >
                 <h1 className="col-4">Anthony Michel</h1>
                 <nav className="navbar col-8 justify-content-end">
