@@ -10,11 +10,29 @@ a:hover {
   filter: drop-shadow(0 0 2em #06c2f7aa);
 }
 
+button:hover{
+  filter: drop-shadow(0 0 2em #06c2f7aa);
+}
+
 #root {
   height: 100vh;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+
+.form {
+  margin: 20px;
+  color: white;
+  
+}
+
+.form input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+
 }
 
 .logo {
@@ -24,22 +42,12 @@ a:hover {
   transition: filter 300ms;
 }
 
-.logo-github {
-  height: 6em;
-  padding: 1.5em;
+.logo-footer {
+  height: 3em;  
 }
 
-.logo-github:hover{
+.logo-footer:hover{
   filter: drop-shadow(0 0 2em #06c2f7aa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
