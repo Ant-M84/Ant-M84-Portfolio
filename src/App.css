@@ -6,12 +6,16 @@
   background-size: "cover";
 }
 
-a:hover {
+/* a:hover {
   filter: drop-shadow(0 0 2em #06c2f7aa);
-}
+} */
 
 button:hover{
   filter: drop-shadow(0 0 2em #06c2f7aa);
+}
+
+ul {
+  color: white;
 }
 
 #root {
@@ -42,12 +46,20 @@ button:hover{
   transition: filter 300ms;
 }
 
+
+
 .logo-footer {
   height: 3em;  
 }
 
 .logo-footer:hover{
   filter: drop-shadow(0 0 2em #06c2f7aa);
+}
+
+.port-logo {
+  height: 15em;
+  border: 2px solid white;
+  border-radius: 2em;
 }
 
 @media (prefers-reduced-motion: no-preference) {

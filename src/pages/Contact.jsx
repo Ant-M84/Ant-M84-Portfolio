@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import '../App.css';
 
 function Contact() {
@@ -72,27 +72,28 @@ function Contact() {
                                 name="email"
                                 onChange={handleInputChange}
                                 type="email"
-                                className="form-control text-white"
+                                className="form-control text-white"       
                             />
                         </div>
                         <div className="form-group mb-5">
                             <label>Leave a Message</label>
-                            <input
+                            <textarea
                                 value={message}
                                 name="message"
                                 onChange={handleInputChange}
                                 type="text"
                                 className="form-control text-white"
+                                style={{height: 150}}
                             />
                         </div>
-                        <button type="submit" className="btn btn-lg btn-dark mb-5">
+                        <button type="submit" className="btn btn-lg btn-primary mb-5">
                             Submit
-                        </button>
+                        </button>  
                     </div>
                 </form>
             </section>
     );
 }
-
-  
+ 
 export default Contact;
+

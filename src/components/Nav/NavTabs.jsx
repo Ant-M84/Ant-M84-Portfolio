@@ -1,30 +1,32 @@
 import { Link, useLocation } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import '../../App.css'
 
 function NavTabs() {
     const currentPage = useLocation().pathname;
 
     return (
-      <header className="container-fluid header" style={{ color: "white", marginBottom: 50 }}>
+      <header className="container-fluid header mt-3" style={{ color: "white", marginBottom: 50 }}>
           <div className ="row" >
               <h1 className="col-4">Anthony Michel</h1>
               <nav className="nav navbar nav-pills col-8 justify-content-end">
                   <ul className="nav-item">
                       <Link 
                           to="/"
-                          className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}
+                          className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
                           style={{ color: "white"}}
                       >
-                          Home
+                          About Me
                       </Link>
                   </ul>
+                  
                   <ul className="nav-item">
                       <Link 
                           to="/Portfolio"
                           className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
                           style={{ color: "white"}}
                       >
-                          Porfolio
+                          Portfolio
                       </Link>
                   </ul >
                   <ul className="nav-item">
