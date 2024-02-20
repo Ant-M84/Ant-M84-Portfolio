@@ -1,7 +1,7 @@
-import jateLogo from '../assets/jate-logo.jpg';
-import socialLogo from '../assets/social-network-api.jpg';
-import sqlLogo from '../assets/sql-employee-tracker.jpg';
-import noteLogo from '../assets/note-taker.jpg';
+import jateLogo from '../../assets/jate-logo.jpg';
+import socialLogo from '../../assets/social-network-api.jpg';
+import sqlLogo from '../../assets/sql-employee-tracker.jpg';
+import noteLogo from '../../assets/note-taker.jpg';
 
 function Portfolio() {
     return (
@@ -13,12 +13,14 @@ function Portfolio() {
                         <a href="https://github.com/Ant-M84/PWA-Text-Editor">
                         <img src={jateLogo} className="port-logo" alt="Logo"/>
                         </a>
+                        <div><a href="" style={{ color: "white" }}>Deployed Link</a></div>
                     </ul >
                     <ul className="col-5 mb-3">
                     <label className="mb-2">Express.js/Mongoose - Social Network API</label>
                         <a href="https://github.com/Ant-M84/Social-Network-API">
                         <img src={socialLogo} className="port-logo" alt="Logo"/>
                         </a>
+                        <div><a href="https://drive.google.com/file/d/19KALkie53V_P-8-8mOu6JL7dqPhSIO2k/view" style={{ color: "white" }}>Application Demo</a></div>
                     </ul>
                 </div> 
                 <nav className="navbar justify-content-center">
@@ -27,12 +29,14 @@ function Portfolio() {
                         <a href="https://github.com/Ant-M84/SQL-Employee-Tracker">
                         <img src={sqlLogo} className="port-logo" alt="Logo"/>
                         </a>
+                        <div><a href="https://drive.google.com/file/d/1zkuCY7qeOTVEB1cwbBJoAJVw8H7thCv7/view" style={{ color: "white" }}>Application Demo</a></div>
                     </ul >
                     <ul className="col-5 mb-3">
                     <label className="mb-2">Express.js - Note Taker</label>
                         <a href="https://github.com/Ant-M84/Note-Taker">
                         <img src={noteLogo} className="port-logo" alt="Logo"/>
                         </a>
+                        <div><a href="" style={{ color: "white" }}>Deployed Link</a></div>
                     </ul>
                 </nav>     
             </div>

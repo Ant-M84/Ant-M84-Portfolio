@@ -2,14 +2,14 @@ import { Link, useLocation } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../../App.css'
 
-function NavTabs() {
+function Nav() {
     const currentPage = useLocation().pathname;
 
     return (
       <header className="container-fluid header mt-3" style={{ color: "white", marginBottom: 50 }}>
           <div className ="row" >
-              <h1 className="col-4">Anthony Michel</h1>
-              <nav className="nav navbar nav-pills col-8 justify-content-end">
+              <h1 className="col-md-4">Anthony Michel</h1>
+              <nav className="nav navbar nav-pills col-md-8 justify-content-end">
                   <ul className="nav-item">
                       <Link 
                           to="/"
@@ -53,4 +53,4 @@ function NavTabs() {
   )
 }
 
-export default NavTabs;
+export default Nav;
