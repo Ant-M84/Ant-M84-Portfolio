@@ -7,7 +7,7 @@ import Error from './pages/Error'
 import Home from './pages/Home';
 import Portfolio from './components/Project/Portfolio';
 import Resume from './components/Project/Resume'
-import Contact from './pages/Contact';
+import Contact from './components/Contact/Contact';
 
 const router = createBrowserRouter([
   { path: '/',
