@@ -19,6 +19,7 @@ function Portfolio() {
                         <a href="https://github.com/Ant-M84/PWA-Text-Editor">
                         <img src={jateLogo} className="port-logo" alt="Logo"/>
                         </a>
+                        <div><a href="https://pwa-text-editor-gygc.onrender.com/" style={{ color: "white" }}>Deployed Application</a></div>
                     </ul >
                     <ul className="col-5 mb-3">
                     <label className="mb-2">Express.js/Mongoose - Social Network API</label>
@@ -41,6 +42,7 @@ function Portfolio() {
                         <a href="https://github.com/Ant-M84/Note-Taker">
                         <img src={noteLogo} className="port-logo" alt="Logo"/>
                         </a>
+                        <div><a href="https://note-taker-m84l.onrender.com/" style={{ color: "white" }}>Deployed Application</a></div>
                     </ul>
                 </nav>     
             </div>
